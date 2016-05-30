@@ -1,0 +1,17 @@
+{
+  "name": "simple-router",
+  "version": "1.0.0",
+  "description": "simple router run for any node http server",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "router"
+  ],
+  "author": "lizmlzhou",
+  "license": "MIT"
+}
