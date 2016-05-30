@@ -15,8 +15,6 @@ for any node http service
         res.end('hello world');
     });
 
-    var http = require('http');
-
     http.createServer(router).listen(3000);
 ```
 
@@ -64,8 +62,6 @@ for any node http service
 
         res.end('view ' + params.page);
     });
-
-    var http = require('http');
 
     http.createServer(router).listen(3000);
 ```
