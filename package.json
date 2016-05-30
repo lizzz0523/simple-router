@@ -13,5 +13,8 @@
     "router"
   ],
   "author": "lizmlzhou",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "path-to-regexp": "^1.5.0"
+  }
 }

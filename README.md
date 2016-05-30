@@ -18,7 +18,6 @@ for any node http service
     var http = require('http');
 
     http.createServer(router).listen(3000);
-
 ```
 
 ##### 2. advanced usage
@@ -47,3 +46,26 @@ for any node http service
     main.use('/user', user);
 
     http.createServer(router).listen(3000);
+```
+
+##### 3. params
+```javascript
+    var http = require('http');
+
+    var Router = require('simple-router'),
+        router = new Router();
+
+    router.get('/', function (req, res) {
+        res.end('hello world');
+    });
+
+    router.get('/:page', function (req, res) {
+        var params = req.params;
+
+        res.end('view ' + params.page);
+    });
+
+    var http = require('http');
+
+    http.createServer(router).listen(3000);
+```
