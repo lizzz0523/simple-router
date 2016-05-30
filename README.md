@@ -5,7 +5,7 @@ for any node http service
 #### example
 
 ##### 1. normal usage
-```
+```javascript
     var http = require('http');
 
     var Router = require('simple-router'),
@@ -22,7 +22,7 @@ for any node http service
 ```
 
 ##### 2. advanced usage
-```
+```javascript
     var http = require('http');
 
     var Router = require('simple-router'),
